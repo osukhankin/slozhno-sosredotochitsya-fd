@@ -4,6 +4,11 @@
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   background-color: var(--bg-color);
   color: var(--text-color);
+  background-image: var(--page-bg-image);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .header {
@@ -14,10 +19,6 @@
   position: relative;
   padding: 20px 0 0 0;
   min-block-size: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-image: url('../images/cover-image.png');
 }
 
 .theme-dark .header {
@@ -132,7 +133,6 @@
   box-shadow: 0 0 8px 2px var(--accent-color);
 }
 
-/* Декоративные уголки */
 .header.decorated-zone::before {
   content: "";
   position: absolute;

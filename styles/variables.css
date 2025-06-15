@@ -11,4 +11,13 @@
   --text-color: #F1B2CE;
   --title-decor-bg: #FF0070;
   --title-decor-color: #000028;
+  --page-bg-image: url('../images/cover-image.png');
+}
+
+.theme-dark {
+  --page-bg-image: url('../images/cover-image-dark.png');
+}
+
+.theme-light {
+  --page-bg-image: url('../images/cover-image-light.png');
 }
