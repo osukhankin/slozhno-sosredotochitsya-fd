@@ -18,3 +18,7 @@
 .theme-light .rec {
   display: none;
 }
+
+.theme-light .header__decorated-text {
+  display: none;
+}

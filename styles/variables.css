@@ -12,6 +12,8 @@
   --title-decor-bg: #FF0070;
   --title-decor-color: #000028;
   --page-bg-image: url('../images/cover-image.png');
+  --hover-border-color: rgb(255 0 112 / 0.4);
+  --page-padding: 10px;
 }
 
 .theme-dark {
