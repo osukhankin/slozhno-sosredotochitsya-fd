@@ -10,17 +10,9 @@
   --text-color: #F1B2CE;
   --title-decor-bg: #FF0070;
   --title-decor-color: #000028;
-  --page-bg-image: url('../images/cover-image.png');
+  --bg-image: url('../images/cover-image.png');
   --hover-border-color: rgb(255 0 112 / 0.4);
   --page-padding: 10px;
   --main-font-size: 18px;
   --main-line-height: 23.4px;
-}
-
-.theme-dark {
-  --page-bg-image: url('../images/cover-image-dark.png');
-}
-
-.theme-light {
-  --page-bg-image: url('../images/cover-image-light.png');
 }
