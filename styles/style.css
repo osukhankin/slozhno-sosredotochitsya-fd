@@ -1,9 +1,10 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
   color: var(--text-color, #f1b2ce);
-  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
   background-color: var(--bg-color, #000028);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .header {
@@ -12,10 +13,6 @@
   grid-template-rows: 1fr min-content 1fr;
   padding: 10px;
   background-image: var(--bg-image);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
   min-block-size: min-content;
   block-size: 100vh;
 }
@@ -37,7 +34,6 @@
   display: flex;
   justify-content: center;
   border: 1px solid transparent;
-  padding: 0 6px;
   padding: 2px 13px 4px;
   color: var(--button-color, #ff0070);
   font-weight: 400;
