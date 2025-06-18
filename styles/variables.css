@@ -8,11 +8,13 @@
   --header-title-color: #DB00FF;
   --bg-color: #000028;
   --text-color: #F1B2CE;
-  --title-decor-bg: #FF0070;
   --title-decor-color: #000028;
   --bg-image: url('../images/cover-image.png');
   --hover-border-color: rgb(255 0 112 / 0.4);
   --page-padding: 10px;
   --main-font-size: 18px;
   --main-line-height: 23.4px;
+  --button-color: #FF0070;
+  --decore-zone-color: #FF0070;
+  --content_title_color: #FF0070;
 }

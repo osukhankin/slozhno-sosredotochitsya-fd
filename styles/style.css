@@ -36,7 +36,7 @@
 .header__theme-menu-button {
   background-color: transparent;
   line-height: 18px;
-  color: var(--accent-color, #FF0070);
+  color: var(--button-color, #FF0070);
   border: 1px solid transparent;
   font-size: var(--main-font-size, 18px);
   font-weight: 400;
@@ -48,7 +48,7 @@
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color, #FF0070);
+  border: 1px solid var(--button-color, #FF0070);
 }
 
 .header__theme-menu-button:hover {
@@ -60,7 +60,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--accent-color, #FF0070);   
+  border-bottom: 1px solid var(--button-color, #FF0070);   
 }
 
 .header__title,
@@ -117,8 +117,8 @@
   right: var(--page-padding);
   width: 25px;
   height: 25px;
-  border-top: 1px solid var(--accent-color, #FF0070);
-  border-right: 1px solid var(--accent-color, #FF0070);
+  border-top: 1px solid var(--decore-zone-color, #FF0070);
+  border-right: 1px solid var(--decore-zone-color, #FF0070);
 }
 
 .decorated-zone::after {
@@ -128,8 +128,8 @@
   left: var(--page-padding);
   width: 25px;
   height: 25px;
-  border-bottom: 1px solid var(--accent-color, #FF0070);
-  border-left: 1px solid var(--accent-color, #FF0070);
+  border-bottom: 1px solid var(--decore-zone-color, #FF0070);
+  border-left: 1px solid var(--decore-zone-color, #FF0070);
 }
 
 .content {
@@ -140,7 +140,7 @@
 }
 
 .content__section-title {
-  color: var(--accent-color, #FF0070);
+  color: var(--content_title_color, #FF0070);
   margin-block-end: 20px;
   font-size: var(--main-font-size, 18px);
   line-height: var(--main-line-height, 23.4px);
