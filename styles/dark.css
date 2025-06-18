@@ -1,8 +1,8 @@
 :root.theme-dark {
-  --bg-image: url('../images/cover-image-dark.png');
+  --bg-image: url("../images/cover-image-dark.png");
 }
 
 .theme-dark .page {
+  color: var(--text-color, #f1b2ce);
   background-color: var(--bg-color, #000028);
-  color: var(--text-color, #F1B2CE);
 }
