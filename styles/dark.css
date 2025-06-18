@@ -1,8 +1,27 @@
 :root.theme-dark {
   --bg-image: url("../images/cover-image-dark.png");
+  --accent-color: #ff0070;
+  --header-title-color: #db00ff;
+  --bg-color: #000028;
+  --text-color: #f1b2ce;
+  --title-decor-color: #000028;
+  --hover-border-color: rgb(255 0 112 / 0.4);
+  --button-color: #ff0070;
+  --decore-zone-color: #ff0070;
+  --content-title-color: #ff0070;
 }
 
-.theme-dark .page {
-  color: var(--text-color, #f1b2ce);
-  background-color: var(--bg-color, #000028);
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-image: url("../images/cover-image-dark.png");
+    --accent-color: #ff0070;
+    --header-title-color: #db00ff;
+    --bg-color: #000028;
+    --text-color: #f1b2ce;
+    --title-decor-color: #000028;
+    --hover-border-color: rgb(255 0 112 / 0.4);
+    --button-color: #ff0070;
+    --decore-zone-color: #ff0070;
+    --content-title-color: #ff0070;
+  }
 }

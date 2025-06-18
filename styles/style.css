@@ -1,6 +1,7 @@
 .page {
   color: var(--text-color, #f1b2ce);
   background-color: var(--bg-color, #000028);
+  background-image: var(--bg-image);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -12,8 +13,7 @@
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   padding: 10px;
-  background-image: var(--bg-image);
-  min-block-size: min-content;
+  min-block-size: 668px;
   block-size: 100vh;
 }
 
@@ -60,14 +60,22 @@
   border-bottom: 1px solid var(--button-color, #ff0070);
 }
 
-.header__title,
-.footer__title {
+.header__title {
   color: var(--header-title-color, #db00ff);
   font-family: inherit;
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
   text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
+}
+
+.footer__title {
+  color: var(--header-title-color, #db00ff);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  line-height: 83%;
+  text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
 }
 
 .header__text {
@@ -138,7 +146,7 @@
 
 .content__section-title {
   margin-block-end: 20px;
-  color: var(--content_title_color, #ff0070);
+  color: var(--content-title-color, #ff0070);
   font-size: var(--main-font-size, 18px);
   line-height: var(--main-line-height, 23.4px);
 }
@@ -163,7 +171,7 @@
 
 .content__link {
   text-decoration: none;
-  text-shadow: 2px 1.5px 0 var(--accent-color, #ff0070);
+  text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
 }
 
 .content__link:hover {
@@ -248,7 +256,7 @@
     padding: 20px;
   }
 
-  .content__section:nth-child(odd):not(.content__section-images) {
+  .content__section-two-columns:not(.content__section-images) {
     display: grid;
     grid-template-columns: min-content 1fr;
     gap: 20px;
@@ -312,7 +320,7 @@
     width: 315px;
   }
 
-  .content__section:nth-child(even) .content__section-list {
+  .content__section-three-columns .content__section-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;

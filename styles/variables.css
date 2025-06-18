@@ -4,12 +4,12 @@
   --bg-color: #000028;
   --text-color: #f1b2ce;
   --title-decor-color: #000028;
-  --bg-image: url("../images/cover-image.png");
+  --bg-image: url("../images/cover-image-dark.png");
   --hover-border-color: rgb(255 0 112 / 0.4);
   --page-padding: 10px;
   --main-font-size: 18px;
   --main-line-height: 23.4px;
   --button-color: #ff0070;
   --decore-zone-color: #ff0070;
-  --content_title_color: #ff0070;
+  --content-title-color: #ff0070;
 }

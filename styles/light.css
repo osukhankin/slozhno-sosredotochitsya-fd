@@ -9,7 +9,7 @@
   --hover-border-color: rgb(50 45 45/ 0.4);
   --button-color: #353430;
   --decore-zone-color: #353430;
-  --content_title_color: #353430;
+  --content-title-color: #353430;
 }
 
 .theme-light .header__decorated-text {
@@ -28,10 +28,10 @@
     --hover-border-color: rgb(50 45 45/ 0.4);
     --button-color: #353430;
     --decore-zone-color: #353430;
-    --content_title_color: #353430;
+    --content-title-color: #353430;
   }
 
-  .header__decorative-text {
+  .header__decorated-text {
     display: none;
   }
 }
