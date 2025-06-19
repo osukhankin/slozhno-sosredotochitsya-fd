@@ -60,21 +60,19 @@
   border-bottom: 1px solid var(--button-color, #ff0070);
 }
 
-.header__title {
+.page-title {
   color: var(--header-title-color, #db00ff);
   font-family: inherit;
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
+}
+
+.header__title {
   text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
 }
 
 .footer__title {
-  color: var(--header-title-color, #db00ff);
-  font-family: inherit;
-  font-weight: 700;
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  line-height: 83%;
   text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
 }
 
@@ -242,8 +240,7 @@
     padding-left: 0;
   }
 
-  .header__title,
-  .footer__title {
+  .page-title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
@@ -256,7 +253,8 @@
     padding: 20px;
   }
 
-  .content__section-two-columns:not(.content__section-images) {
+  .content__section-reasons:not(.content__section-images),
+  .content__section-advice:not(.content__section-images) {
     display: grid;
     grid-template-columns: min-content 1fr;
     gap: 20px;
@@ -320,7 +318,7 @@
     width: 315px;
   }
 
-  .content__section-three-columns .content__section-list {
+  .content__section-factors .content__section-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
